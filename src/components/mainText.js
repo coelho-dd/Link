@@ -1,5 +1,6 @@
 import img from '../assets/code.jpg';
 import './../styles/mainText.css';
+import { FaArrowRight, FaArrowDown } from 'react-icons/fa';
 
 export default function MainText() {
     return (
@@ -9,8 +10,10 @@ export default function MainText() {
                 <h1 className="text-6xl font-semibold">
                     Impulsione os resultados da sua empresa com uma presença digital estratégica.
                 </h1>
-                <button id="botao1">Comece Agora</button>
-                <button id="botao2">Saiba Mais</button>
+                <div className="flex">
+                    <button id="botao1" className="flex items-center">Comece Agora<FaArrowRight className="mr-1 ml-2" /></button>
+                    <button id="botao2" className="flex items-center">Saiba Mais<FaArrowDown className="mr-1 ml-2" /></button>
+                </div>
             </div>
 
             <div className="w-1/2 flex justify-center">
