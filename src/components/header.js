@@ -3,7 +3,7 @@ import './../styles/header.css';
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center mx-auto mt-10 font-sans text-linkWhite">
+        <header className="flex justify-around items-center mx-auto pt-10 font-sans text-linkWhite">
             <img src={logo} alt="Logo agência Link" className="h-24 rounded-full" />
             <nav>
                 <ul className="flex justify-evenly space-x-2 text-lg">

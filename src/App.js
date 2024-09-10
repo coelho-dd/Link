@@ -5,12 +5,17 @@ import MainText from './components/mainText.js';
 function App() {
   return (
     <>
-      <div className="App">
-        <Header />
-      </div>
+      <div className="bg-linkBlack min-h-screen flex flex-col">
+        <div className="App">
+            <Header />
+          </div>
 
+          <div>
+            <MainText />
+          </div>
+      </div>
       <div>
-        <MainText />
+        
       </div>
     </>
   );
