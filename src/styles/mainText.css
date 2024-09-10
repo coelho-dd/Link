@@ -1,0 +1,23 @@
+h3 {
+    margin-bottom: 8px;
+    /* margin-left: 5px; */
+    color: #949494;
+}
+
+button {
+    margin-top: 35px;
+    background-color: #f2ea77;
+    color: #212426;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#botao1 {
+    margin-right: 20px;
+}
+
+#botao2 {
+    color: #f2f2f2;
+    background-color: #33383b;
+}
