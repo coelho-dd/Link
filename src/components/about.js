@@ -11,7 +11,7 @@ export default function About() {
                     Com soluções personalizadas, tecnologias de ponta e foco em resultados, ajudamos startups e pequenas empresas a expandirem suas operações online de forma eficaz. Contrate
                     a <strong>Link</strong> e transforme sua presença digital em uma verdadeira vantagem competitiva.
                 </p>
-                <button className="bg-linkBlack text-linkWhite font-medium text-lg px-5 py-2 rounded-xl">Entre em contato conosco</button>
+                <button className="bg-linkBlack text-linkWhite font-medium text-lg px-5 py-2 mb-36 rounded-xl">Entre em contato conosco</button>
             </section>
         </>
     );

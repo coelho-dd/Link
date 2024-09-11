@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header.js';
 import MainText from './components/mainText.js';
 import About from './components/about.js';
+import Services from './components/services.js';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="bg-offWhite pt-20">
         <About />
+      </div>
+      <div className="bg-linkBlack pt-20">
+        <Services />
       </div>
     </>
   );
