@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header.js';
 import MainText from './components/mainText.js';
+import About from './components/about.js';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
             <MainText />
           </div>
       </div>
-      <div>
-        
+      <div className="bg-offWhite pt-20">
+        <About />
       </div>
     </>
   );
