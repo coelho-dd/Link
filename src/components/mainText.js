@@ -8,7 +8,7 @@ export default function MainText() {
             <div id="main" className="w-1/2">
                 <h3>Agência Link</h3>
                 <h1 className="text-6xl font-semibold">
-                    Impulsione os resultados da sua empresa com uma presença digital estratégica.
+                    Impulsione os resultados da sua empresa com uma presença digital estratégica
                 </h1>
                 <div className="flex">
                     <button id="botao1" className="flex items-center">Comece Agora<FaArrowRight className="mr-1 ml-2" /></button>
