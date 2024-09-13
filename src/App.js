@@ -3,6 +3,7 @@ import Header from './components/header.js';
 import MainText from './components/mainText.js';
 import About from './components/about.js';
 import Services from './components/services.js';
+import Aval from './components/aval.js';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div className="bg-linkBlack pt-20">
         <Services />
+      </div>
+      <div className="bg-linkBlack pt-20">
+        <Aval />
       </div>
     </>
   );
